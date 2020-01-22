@@ -5,11 +5,11 @@ import TextLoop from "react-text-loop";
 const Welcome = ({ siteTitle }) => (
   <header
     style={{
-      color: `#42A5F5`
+      color: `#42A5F5`,
     }}
   >
-    <h2 style={{ margin: 0 }}>
-    <TextLoop>
+    <h2 style={{ margin: `0 auto`,width:`150px` }}>
+    <TextLoop style={{}}>
         {siteTitle.map((title)=>
         {return title}
         )}
