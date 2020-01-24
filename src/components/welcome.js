@@ -8,7 +8,7 @@ const Welcome = ({ siteTitle }) => (
       color: `#42A5F5`,
     }}
   >
-    <h2 style={{ margin: `0 auto`,width:`150px` }}>
+    <h2 style={{ margin: `0 auto`,width:`100px` }}>
     <TextLoop style={{}}>
         {siteTitle.map((title)=>
         {return title}

@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
-        className="layout"
+        className="layout bg-dark"
       >
         <main>{children}</main>
         <footer style={{height:`2em`}}>
