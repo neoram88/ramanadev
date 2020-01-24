@@ -16,12 +16,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
-        style={{
-          padding: `1rem`,
-        }}
+        className="layout"
       >
         <main>{children}</main>
-        <footer>
+        <footer style={{height:`2em`}}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
