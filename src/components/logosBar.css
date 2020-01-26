@@ -9,8 +9,8 @@
 }
 
 .logoContainer img{
-    height: 70px;
-    margin: 1em;
+    height: 7vh;
+    margin: 0.5rem;
 }
 
 .logoContainer img:nth-child(odd) {
@@ -40,7 +40,7 @@
         -webkit-transform: translateY(0%);  
     }
     50% { 
-        -webkit-transform: translateY(-100%);  
+        -webkit-transform: translateY(-200%);  
     }
     100% { 
         -webkit-transform: translateY(0%);
@@ -51,7 +51,7 @@
         -webkit-transform: translateY(0%);  
     }
     50% { 
-        -webkit-transform: translateY(100%);  
+        -webkit-transform: translateY(200%);  
     }
     100% { 
         -webkit-transform: translateY(0%);

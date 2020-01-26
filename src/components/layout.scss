@@ -1,6 +1,8 @@
 
 .layout{
-  height: calc(100vh - 2em);
+  height: 100vh;
+  padding: 10px;
+  overflow: hidden;
 }
 #___gatsby{
   height: 100%;

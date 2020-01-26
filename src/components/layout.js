@@ -19,11 +19,11 @@ const Layout = ({ children }) => {
         className="layout bg-dark"
       >
         <main>{children}</main>
-        <footer style={{height:`2em`}}>
+        {/* <footer style={{height:`2em`}}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )
