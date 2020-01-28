@@ -15,9 +15,7 @@ const Layout = ({ children }) => {
  
   return (
     <>
-      <div
-        className="layout bg-dark"
-      >
+      <div className="m-6">
         <main>{children}</main>
         {/* <footer style={{height:`2em`}}>
           © {new Date().getFullYear()}, Built with
