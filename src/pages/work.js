@@ -15,10 +15,11 @@ const WorkPage = () => {
             <h2 style={{ margin: `0 auto`,width:`100px` }}> Work</h2>
         </header>
         <div className="text-white text-lg leading-loose text-center my-12">
-            I have been working with JavaScript based libraries and frameworks for the past 5 years,
-            mainly developing Hybrid Mobile Apps, Web Apps and PWAs.
-            I specialize in Cross Platform App development, developing Android, 
-            iOS and Web Apps using the same shared code base.
+            I have 5 years of professional experience working in IBM,
+            developing Hybrid Mobile Apps, Web Apps and PWAs 
+            with JavaScript based libraries and frameworks. 
+            I specialize in Cross Platform App development, developing Hybrid Android /
+            iOS Apps and Web Apps using the same shared code base.
         </div>
         <div className="work-content">
             <div class="m-4 flex flex-wrap justify-center 
@@ -52,17 +53,18 @@ const WorkPage = () => {
                 <div class="text-center p-4 my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
-                        style={{fontFamily: `Montserrat SemiBold`}}> 4 </span>
+                        style={{fontFamily: `Montserrat SemiBold`}}> 3 </span>
                         <span className="text-light m-auto">
                             Apps with <span className="text-red"> Angular </span>
-                            and <span className="text-ionicblue">Ionic</span>
+                            <span className="text-ionicblue">Ionic</span> and 
+                            <span className="text-nodegreeen"> NodeJS</span>
                         </span>
                     </div>
                     <div className="text-xl">
                         <span className="text-secondary text-4xl"> 1 </span>
                         <span className="text-light m-auto">
-                            Apps with <span className="text-reactblue"> ReactJS </span>
-                            and IBM's Carbon Design
+                            App with <span className="text-reactblue"> ReactJS </span>
+                            and <span className="text-gatsbyblue"> Gatsby</span>
                         </span>
                     </div>
                 </div>

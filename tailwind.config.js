@@ -8,7 +8,9 @@ module.exports = {
       dark: '#1D1D1D',
       light: '#DBE1E6',
       ionicblue: '#478AFF',
-      reactblue: '#53C1DE'
+      reactblue: '#53C1DE',
+      nodegreeen: '#87C000',
+      gatsbyblue: '#663399'
     },
     extend: {}
   },
