@@ -17,7 +17,7 @@ const LogosBar = () => {
             publicURL
             extension
             childImageSharp{
-              fixed(width: 30) {
+              fixed(width: 100, height: 100) {
                   ...GatsbyImageSharpFixed
               }
             }
@@ -30,22 +30,16 @@ const LogosBar = () => {
     return (
         <>
         <div className="logoContainer">
+          <div className="logos">
             {data.allFile.edges.map(edge => 
-            {
-            if (edge.node.extension === 'svg') {
-                return <img src={edge.node.publicURL} />
-            }
-            return <Img fixed={edge.node.childImageSharp.fixed} />
-            }
+              {
+                if (edge.node.extension === 'svg') {
+                    return <img src={edge.node.publicURL} />
+                }
+              }
             )}
-            {data.allFile.edges.map(edge => 
-            {
-            if (edge.node.extension === 'svg') {
-                return <img src={edge.node.publicURL} />
-            }
-            return <Img fixed={edge.node.childImageSharp.fixed} />
-            }
-            )}
+          </div>
+           
         </div>
         </>
     )

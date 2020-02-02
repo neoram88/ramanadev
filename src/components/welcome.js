@@ -6,9 +6,10 @@ const Welcome = ({ siteTitle }) => (
   <header
     style={{
       color: `#42A5F5`,
+      textAlign: `center`
     }}
   >
-    <h2 style={{ margin: `0 auto`,width:`100px` }}>
+    <h2>
     <TextLoop style={{}}>
         {siteTitle.map((title)=>
         {return title}

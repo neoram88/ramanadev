@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
  
   return (
     <>
-      <div className="layout m-6">
+      <div className="layout m-4">
         <main>{children}</main>
         {/* <footer style={{height:`2em`}}>
           © {new Date().getFullYear()}, Built with

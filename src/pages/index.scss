@@ -3,12 +3,14 @@
 //preflight code
 html {
     height:100%;
+    width: 100%;
     font-family: Montserrat;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
   body {
     margin: 0;
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #1D1D1D;
@@ -193,7 +195,7 @@ html {
     font: inherit;
   }
   html {
-    font: Montserrat;
+    font-family: Montserrat;
     box-sizing: border-box;
     overflow-y: scroll;
   }
@@ -628,6 +630,12 @@ html {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+  }
+  .introBlock{
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    align-items: center;
   }
   
 

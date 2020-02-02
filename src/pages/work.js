@@ -14,20 +14,25 @@ const WorkPage = () => {
         <header style={{color: `#42A5F5`}}>
             <h2 style={{ margin: `0 auto`,width:`100px` }}> Work</h2>
         </header>
-        <div className="text-white text-lg leading-loose text-center my-12">
-            I have 5 years of professional experience working in IBM,
-            developing Hybrid Mobile Apps, Web Apps and PWAs 
-            with JavaScript based libraries and frameworks. 
-            I specialize in Cross Platform App development, developing Hybrid Android /
-            iOS Apps and Web Apps using the same shared code base.
+        <div className="text-white md:text-lg xl:text-xl 
+        text-base leading-loose text-center my-12">
+            <p>
+                I have 5 years of professional experience working in IBM,
+                developing Hybrid Mobile Apps, Web Apps and PWAs 
+                with JavaScript based libraries and frameworks.
+            </p>
+            <p>
+                I specialize in Cross Platform App development, developing Hybrid Android /
+                iOS Apps and Web Apps using the same shared code base.
+            </p>
         </div>
         <div className="work-content">
-            <div class="m-4 flex flex-wrap justify-center 
+            <div className="m-4 flex flex-wrap justify-center 
             lg:justify-around">
-                <div class="text-center p-4">
+                <div className="text-center p-4">
                     <MobileImg style={{height:`30vh`,width:`30vh`}}/>
                 </div>
-                <div class="text-center p-4 my-auto">
+                <div className="text-center p-4 my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
                         style={{fontFamily: `Montserrat SemiBold`}}> 4 </span>
@@ -45,12 +50,12 @@ const WorkPage = () => {
                     </div>
                 </div>
             </div>
-            <div class="m-4 flex flex-wrap justify-center 
+            <div className="m-4 flex flex-wrap justify-center 
             lg:justify-around">
-                <div class="text-center p-4">
+                <div className="text-center p-4">
                     <WebImg style={{height:`30vh`,width:`30vh`}}/>
                 </div>
-                <div class="text-center p-4 my-auto">
+                <div className="text-center p-4 my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
                         style={{fontFamily: `Montserrat SemiBold`}}> 3 </span>
