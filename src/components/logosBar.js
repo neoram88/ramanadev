@@ -39,6 +39,15 @@ const LogosBar = () => {
               }
             )}
           </div>
+          <div className="logos2">
+            {data.allFile.edges.map(edge => 
+              {
+                if (edge.node.extension === 'svg') {
+                    return <img src={edge.node.publicURL} />
+                }
+              }
+            )}
+          </div>
            
         </div>
         </>
