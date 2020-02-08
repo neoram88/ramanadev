@@ -12,6 +12,12 @@ module.exports = {
       nodegreeen: '#87C000',
       gatsbyblue: '#663399'
     },
+    fill: theme => ({
+      white: '#FFFFFF',
+      dark: '#1D1D1D',
+      light: '#DBE1E6',
+      ionicblue: '#478AFF',
+    }),
     extend: {}
   },
   variants: {},
