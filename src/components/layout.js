@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import ContactBar from './contactBar'
 import "./layout.scss"
 
 const Layout = ({ children }) => {
@@ -16,7 +15,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="layout p-4">
-      <ContactBar/>
         <main>{children}</main>
         {/* <footer style={{height:`2em`}}>
           © {new Date().getFullYear()}, Built with

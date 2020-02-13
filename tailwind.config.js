@@ -20,6 +20,9 @@ module.exports = {
     }),
     extend: {}
   },
-  variants: {},
+  variants: {
+    fill: ['hover', 'focus'],
+    opacity: ['responsive', 'hover', 'focus', 'active']
+  },
   plugins: []
 }

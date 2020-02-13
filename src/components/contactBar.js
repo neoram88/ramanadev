@@ -1,7 +1,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import GitHubLogo from '../images/Github.svg'
 import LinkedinLogo from '../images/Linkedin.svg'
 import './contactBar.scss'
@@ -10,19 +9,19 @@ const ContactBar = () => {
     return (
         <>
             <div className="contactBar">
-                <button className="bg-gray-300 hover:bg-ionicblue-400">
-                    <GitHubLogo className="fill-white w-4 h-4 mr-2" />
-                </button>
-                <button className="bg-gray-300 hover:bg-ionicblue-400">
-                    <LinkedinLogo className="fill-white w-4 h-4 mr-2" />
-                </button>
+                <a href="https://github.com/neoram88" target="_blank">
+                    <button className="">
+                        <GitHubLogo className="opacity-50 fill-white h-5 mr-2 hover:opacity-100" />
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/in/vrlj/" target="_blank">
+                    <button className="">
+                        <LinkedinLogo className="opacity-50 fill-white h-5 mr-2 hover:opacity-100" />
+                    </button>
+                </a>
             </div>
         </>
     )
-}
-
-ContactBar.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default ContactBar

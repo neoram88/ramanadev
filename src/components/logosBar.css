@@ -31,7 +31,7 @@
 }
 @media only screen and (max-width: 900px) {
     .logos2{
-        animation-delay: 30s;
+        visibility: hidden;
     }
 }
 

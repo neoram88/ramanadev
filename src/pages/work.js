@@ -15,7 +15,7 @@ const WorkPage = () => {
             <h2 style={{ margin: `0 auto`,width:`100px` }}> Work</h2>
         </header>
         <div className="text-white md:text-lg xl:text-xl 
-        text-base leading-loose text-center my-12">
+        text-base leading-loose text-center my-8">
             <p>
                 I have 5 years of professional experience working in IBM,
                 developing Hybrid Mobile Apps, Web Apps and PWAs 
@@ -29,10 +29,10 @@ const WorkPage = () => {
         <div className="work-content">
             <div className="m-4 flex flex-wrap justify-center 
             lg:justify-around">
-                <div className="text-center p-4">
+                <div className="text-center">
                     <MobileImg style={{height:`30vh`,width:`30vh`}}/>
                 </div>
-                <div className="text-center p-4 my-auto">
+                <div className="text-center my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
                         style={{fontFamily: `Montserrat SemiBold`}}> 4 </span>
@@ -52,10 +52,10 @@ const WorkPage = () => {
             </div>
             <div className="m-4 flex flex-wrap justify-center 
             lg:justify-around">
-                <div className="text-center p-4">
+                <div className="text-center">
                     <WebImg style={{height:`30vh`,width:`30vh`}}/>
                 </div>
-                <div className="text-center p-4 my-auto">
+                <div className="text-center my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
                         style={{fontFamily: `Montserrat SemiBold`}}> 3 </span>

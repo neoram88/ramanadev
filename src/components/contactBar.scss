@@ -1,5 +1,4 @@
 .contactBar{
-    height: 5vh;
     overflow: hidden;
     display: inline-flex;
     position: absolute;
@@ -7,5 +6,9 @@
 
     img{
         height: 3vh;
+    }
+    
+    @media only screen and (max-width: 480px) {
+        flex-flow: column;
     }
 }

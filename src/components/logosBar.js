@@ -34,7 +34,7 @@ const LogosBar = () => {
             {data.allFile.edges.map(edge => 
               {
                 if (edge.node.extension === 'svg') {
-                    return <img src={edge.node.publicURL} />
+                    return <img key={edge.node.publicURL} src={edge.node.publicURL} />
                 }
               }
             )}
@@ -43,7 +43,7 @@ const LogosBar = () => {
             {data.allFile.edges.map(edge => 
               {
                 if (edge.node.extension === 'svg') {
-                    return <img src={edge.node.publicURL} />
+                    return <img key={edge.node.publicURL} src={edge.node.publicURL} />
                 }
               }
             )}
@@ -52,10 +52,6 @@ const LogosBar = () => {
         </div>
         </>
     )
-}
-
-LogosBar.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default LogosBar
