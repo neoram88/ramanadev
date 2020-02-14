@@ -9,7 +9,7 @@ const ContactBar = () => {
     return (
         <>
             <div className="contactBar">
-                <a href="https://github.com/neoram88" target="_blank">
+                <a href="https://github.com/vramanalj" target="_blank">
                     <button className="">
                         <GitHubLogo className="opacity-50 fill-white h-5 mr-2 hover:opacity-100" />
                     </button>
