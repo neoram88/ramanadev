@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Welcome from "../components/welcome"
 import ContactBar from '../components/contactBar'
 import  "./index.scss"
-import  "./index.css"
 
 const IndexPage = () => {
   return (
