@@ -27,15 +27,15 @@ const WorkPage = () => {
             </p>
         </div>
         <div className="work-content">
-            <div className="m-4 flex flex-wrap justify-center 
-            lg:justify-around">
+            <div className="m-4 flex flex-wrap
+            justify-around">
                 <div className="text-center">
-                    <MobileImg style={{height:`30vh`,width:`30vh`}}/>
+                    <MobileImg style={{height:`20vh`,width:`20vh`}}/>
                 </div>
                 <div className="text-center my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
-                        style={{fontFamily: `Montserrat SemiBold`}}> 4 </span>
+                        style={{fontFamily: `Montserrat`,fontWeight: `500`}}> 4 </span>
                         <span className="text-light m-auto">
                             Apps with <span className="text-red"> Angular </span>
                             and <span className="text-ionicblue">Ionic</span>
@@ -50,15 +50,15 @@ const WorkPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="m-4 flex flex-wrap justify-center 
-            lg:justify-around">
+            <div className="m-4 flex flex-wrap
+            justify-around">
                 <div className="text-center">
-                    <WebImg style={{height:`30vh`,width:`30vh`}}/>
+                    <WebImg style={{height:`20vh`,width:`20vh`}}/>
                 </div>
                 <div className="text-center my-auto">
                     <div className="text-xl">
                         <span className="text-secondary text-4xl" 
-                        style={{fontFamily: `Montserrat SemiBold`}}> 3 </span>
+                        style={{fontFamily: `Montserrat`,fontWeight: `500`}}> 3 </span>
                         <span className="text-light m-auto">
                             Apps with <span className="text-red"> Angular </span>
                             <span className="text-ionicblue">Ionic</span> and 
